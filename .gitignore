@@ -1,2 +1,16 @@
-.pyc
-.env
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais (se você criar um no futuro)
+venv/
+.venv/
+
+# Banco de dados local (cada um gera o seu)
+database/*.db
+
+# Configurações do VS Code (opcional, mas comum ignorar)
+.vscode/
+
+# Arquivos de sistema do Windows
+Thumbs.db
